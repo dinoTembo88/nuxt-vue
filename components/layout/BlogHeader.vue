@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="header-contents">
-      <h1><nuxt-link to="/">{{ siteData.name }}</nuxt-link></h1>
+      <h1><a href="/">{{ siteData.name }}</a></h1>
       <p class="subhead">{{ siteData.description }}</p>
     </div>
   </header>
