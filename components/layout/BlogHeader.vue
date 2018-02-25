@@ -1,9 +1,13 @@
 <template>
   <header>
     <div class="header-contents">
-      <h1><a href="/">{{ siteData.name }}</a></h1>
+      <h1>
+      <nuxt-link :to="`/`">{{ siteData.name }}</nuxt-link>
+      </h1>
       <p class="subhead">{{ siteData.description }}</p>
-      <h2><a href="/pages">Stranice</a></h2>  
+      <h2>
+      <nuxt-link class="white" :to="`/pages`">Stranice</nuxt-link>
+      </h2>  
     </div>
   </header>
 </template>

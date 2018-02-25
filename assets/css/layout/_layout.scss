@@ -8,3 +8,45 @@
 .main-contents {
   margin-top: -3.5rem;
 }
+// .page-enter-active {
+//   animation: acrossIn .45s ease-out both;
+// } 
+
+// .page-leave-active {
+//   animation: acrossOut .65s ease-in both;
+// } 
+
+// @keyframes acrossIn {
+//   0% {
+//     transform: translate3d(-100%, 0, 0);
+//   }
+//   100% {
+//     transform: translate3d(0, 0, 0);
+//   }
+// }
+
+// @keyframes acrossOut {
+//   0% {
+//     transform: translate3d(0, 0, 0);
+//   }
+//   100% {
+//     transform: translate3d(100%, 0, 0);
+//   }
+// }
+
+.page-enter-active, .page-leave-active {
+  transition: all .35s ease-out;
+}
+.page-enter, .page-leave-active {
+  opacity: 0;
+  transform-origin: 50% 50%;
+}
+
+.white {
+  color: #fff;
+  &:hover {
+    opacity: 0.7;
+    color: #fff;
+    text-decoration: none;
+  }
+}
