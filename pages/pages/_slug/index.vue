@@ -19,7 +19,6 @@ export default {
     }
     return wp.pages({ slug: params.slug })
       .then(json => {
-        //console.log(json.pages[0])
         store.commit(types.CURRENT_PAGE_UPDATE, json.pages[0])
       })
   },

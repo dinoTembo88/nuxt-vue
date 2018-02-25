@@ -13,7 +13,7 @@ import wp from '~/lib/wp'
 import { types } from '~/store'
 
 export default {
-  fetch ({ store, params }) {
+  asyncData ({store, params}) {
     return wp.pages()
       .then(json => {
         store.commit(types.PAGE_LIST_UPDATE, json.pages)

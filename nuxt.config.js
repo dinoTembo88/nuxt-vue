@@ -76,6 +76,18 @@ const config = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+
+  modules: [
+    // Simple usage
+    '@nuxtjs/component-cache',
+
+    // With options
+    ['@nuxtjs/component-cache', {
+      max: 10000,
+      maxAge: 1000 * 60 * 60
+    }]
+  ],
+
   generate:  {
     routes: function (callback) {
       wp.pages()
