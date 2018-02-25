@@ -2,11 +2,11 @@
   <header>
     <div class="header-contents">
       <h1>
-      <a href="`/`">{{ siteData.name }}</a>
+      <a href="/">{{ siteData.name }}</a>
       </h1>
       <p class="subhead">{{ siteData.description }}</p>
       <h2>
-      <a class="white" href="`/pages`">Stranice</a>
+      <a class="white" href="/pages">Stranice</a>
       </h2>  
     </div>
   </header>
