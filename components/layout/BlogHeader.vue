@@ -2,11 +2,11 @@
   <header>
     <div class="header-contents">
       <h1>
-      <nuxt-link :to="`/`">{{ siteData.name }}</nuxt-link>
+      <a href="`/`">{{ siteData.name }}</a>
       </h1>
       <p class="subhead">{{ siteData.description }}</p>
       <h2>
-      <nuxt-link class="white" :to="`/pages`">Stranice</nuxt-link>
+      <a class="white" href="`/pages`">Stranice</a>
       </h2>  
     </div>
   </header>
