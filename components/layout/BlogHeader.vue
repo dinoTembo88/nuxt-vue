@@ -3,6 +3,7 @@
     <div class="header-contents">
       <h1><a href="/">{{ siteData.name }}</a></h1>
       <p class="subhead">{{ siteData.description }}</p>
+      <h2><a href="/pages">Stranice</a></h2>  
     </div>
   </header>
 </template>
