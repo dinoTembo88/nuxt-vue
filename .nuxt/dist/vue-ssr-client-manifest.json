@@ -7,16 +7,16 @@
     "pages_pages__slug_index.9aab5920f8cacedb2d25.js",
     "layouts_default.8ec6bbe6b1dcc1bc2612.js",
     "pages_pages_index.76300c169950584a3b25.js",
-    "app.25cedd0d2584bd5b64ae.js",
-    "manifest.c573ed072581dad6a9e3.js",
+    "app.6793e9417ea1593ca00f.js",
+    "manifest.88112ad7d9ef3d8e4d27.js",
     "LICENSES",
     "index.spa.html",
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.c573ed072581dad6a9e3.js",
+    "manifest.88112ad7d9ef3d8e4d27.js",
     "vendor.47e79676ab9d4694d193.js",
-    "app.25cedd0d2584bd5b64ae.js"
+    "app.6793e9417ea1593ca00f.js"
   ],
   "async": [
     "pages_index.cde5e7787d25dfe19108.js",
