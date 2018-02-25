@@ -84,6 +84,10 @@ const config = {
         var routes = res.pages.map((page) => {
           return '/pages/' + page.slug
         })
+
+        routes.push('/pages')
+        routes.push('/')
+        console.log(routes);
         callback(null, routes)
       })
       .catch(callback)
