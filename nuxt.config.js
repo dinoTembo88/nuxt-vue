@@ -1,5 +1,5 @@
 
-var WP_SITE_URL = '//www.prospectplus.hr';
+var WP_SITE_URL = 'http://www.prospectplus.hr';
 var WP_HOMEPAGE_LIMIT = 20;
 var axios = require('axios');
 class WpApi {
